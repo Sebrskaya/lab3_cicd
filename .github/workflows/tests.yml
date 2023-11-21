@@ -37,7 +37,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: code
-        path: .github/workflows/artifacts/.
+        path: .github/workflows/artifacts
 
     - name: Upload Test artifacts
       if: success()
