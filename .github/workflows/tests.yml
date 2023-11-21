@@ -3,7 +3,11 @@ name: Run Tests
 on:
   push:
     branches:
+<<<<<<< HEAD
       -yay
+=======
+      -main
+>>>>>>> origin/main
 
   workflow_dispatch:
 
